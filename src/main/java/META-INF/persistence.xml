@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1"
+	xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="minetec-core">
+		<class>au.com.minetec.core.model.Config</class>
+		<class>au.com.minetec.core.model.DbVersion</class>
+		<class>au.com.minetec.core.model.DeviceType</class>
+		<class>au.com.minetec.core.model.Label</class>
+		<class>au.com.minetec.core.model.MapGeometry</class>
+		<class>au.com.minetec.core.model.Mine</class>
+		<class>au.com.minetec.core.model.Node</class>
+		<class>au.com.minetec.core.model.NodesLog</class>
+		<class>au.com.minetec.core.model.Operator</class>
+		<class>au.com.minetec.core.model.OperatorType</class>
+		<class>au.com.minetec.core.model.Query</class>
+		<class>au.com.minetec.core.model.Sign</class>
+		<class>au.com.minetec.core.model.TrackingLog</class>
+		<class>au.com.minetec.core.model.TrackingPrestartCheck</class>
+		<class>au.com.minetec.core.model.Upload</class>
+		<class>au.com.minetec.core.model.User</class>
+		<class>au.com.minetec.core.model.UserUndo</class>
+		<class>au.com.minetec.core.model.UserUndoCurrent</class>
+		<class>au.com.minetec.core.model.UserUndoCurrentPK</class>
+		<class>au.com.minetec.core.model.Vehicle</class>
+		<class>au.com.minetec.core.model.VehicleType</class>
+		<class>au.com.minetec.core.model.Zone</class>
+		<class>au.com.minetec.core.model.GeographyColumn</class>
+		<class>au.com.minetec.core.model.GeometryColumn</class>
+		<class>au.com.minetec.core.model.RasterColumn</class>
+		<class>au.com.minetec.core.model.RasterOverview</class>
+		<class>au.com.minetec.core.model.SpatialRefSy</class>
+
+	</persistence-unit>
+</persistence>
