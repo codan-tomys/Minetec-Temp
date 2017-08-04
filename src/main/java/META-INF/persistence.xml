@@ -4,7 +4,6 @@
 	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
 	<persistence-unit name="minetec-core">
 		<class>au.com.minetec.core.model.Config</class>
-		<class>au.com.minetec.core.model.DbVersion</class>
 		<class>au.com.minetec.core.model.DeviceType</class>
 		<class>au.com.minetec.core.model.Label</class>
 		<class>au.com.minetec.core.model.MapGeometry</class>
